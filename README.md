@@ -30,6 +30,16 @@ A web framework for building virtual reality experiences
 - Assets are 3D shapes (primitives) or 3D models, or more
 - Some special effects are made with particle effects
 
+### How does A-Frame work?
+- Load in the A-Frame framework as javascript
+- Put things in a scene
+- Asset manager loads declared assets
+- Follows an ["entity-component system"](https://aframe.io/docs/0.5.0/introduction/entity-component-system.html), meaning that an entity (container object) is built from composing together different components (reusable module). In this case, we create HTML entities and define its components as HTML attributes, like so:
+
+```
+<a-entity ${componentName}="${propertyName1}: ${propertyValue1}; ${propertyName2:}: ${propertyValue2}">
+```
+
 # Hello World Tutorial
 
 ## Install
