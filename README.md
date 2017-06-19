@@ -23,24 +23,42 @@ A web framework for building virtual reality experiences
 - encourages fast development/prototyping
 
 ### Examples of A-Frame
-- 
+-
 
 ### Useful Concepts
 - Uses 3D coordinate space like (0, 0, 1)
-- Controlled by a Camera
 - Assets are 3D shapes (primitives) or 3D models, or more
 - Some special effects are made with particle effects
 
 # Hello World Tutorial
 
 ## Install
+1. In the terminal, clone the repo using `git clone https://github.com/dannielle/a-frame-intro.git`
+2. Navigate to the project with `cd a-frame-intro`
+3. Install the dependencies with `npm install`
 
 ## Import
+1. Open up `index.html`
+2. Find the head tag and use the correct tag to point to the minified A-frame javascript.
 
 ## Hello World!
+1. Read the docs on [the a-text tag](https://aframe.io/docs/0.5.0/primitives/a-text.html).
+2. Within the `a-scene` tag, add an `a-text` tag with a `value` of "Hello World!", a `color` of "#000000" and a `position` of "-1 2 -3"
 
 ## Run
+1. In your terminal, run the server using `npm start`. Your browser should open up http://localhost:3000/
+2. Verify that you see the Hello World text
+
+## Iterate
+1. Add a box to the scene using an [`a-box`](https://aframe.io/docs/0.5.0/primitives/a-box.html) tag. The `position` is "0 0.5 -3", the `rotation` is "0 45 0", and the `color` is "#DEFACE".
+2. In the assets tag, import the asset `assets/beltline.jpeg` with an `id` of "sky"
+3. Create an [`a-sky`](https://aframe.io/docs/0.5.0/primitives/a-sky.html) tag in the `a-scene` tag but outside of `a-assets`. The value of the sky's source is the `#sky` id that refers to the asset
+4. In the assets tag, import the asset `assets/bicycle.dae` with an `id` of "bike"
+5. Add an [`a-collada-model`](https://aframe.io/docs/0.5.0/primitives/a-collada-model.html) tag under the sky tag. The value of the model's source is the "#bike" id. The `position` is "3 1 -2" and the `rotation` is "0 90 0".
 
 ## Run on Phone
+1. Make sure your phone and computer are connected to the same Wifi network.
+2. Find your IP Address. On macs, this is found in System Preferences > Network, and under the "Status" heading.
+3. On your phone, navigate to `<Your IP address>:3000`
 
 # More Resources
