@@ -37,7 +37,7 @@ A web framework for building virtual reality experiences
 - Follows an ["entity-component system"](https://aframe.io/docs/0.5.0/introduction/entity-component-system.html), meaning that an entity (container object) is built from composing together different components (reusable module). In this case, we create HTML entities and define its components as HTML attributes, like so:
 
 ```
-<a-entity ${componentName}="${propertyName1}: ${propertyValue1}; ${propertyName2:}: ${propertyValue2}">
+<a-entity ${componentName}="${propertyName1}: ${propertyValue1}; ${propertyName2:}: ${propertyValue2}"></a-entity>
 ```
 
 # Hello World Tutorial
