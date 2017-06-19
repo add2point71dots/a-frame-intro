@@ -62,9 +62,9 @@ A web framework for building virtual reality experiences
 ## Iterate
 1. Add a light source to the scene using an `a-light` tag. The `type` is "ambient" and the `color` is "#222".
 1. Add a box to the scene using an [`a-box`](https://aframe.io/docs/0.5.0/primitives/a-box.html) tag. The `position` is "0 0.5 -3", the `rotation` is "0 45 0", and the `color` is "#DEFACE".
-2. In the assets tag, import the asset `assets/beltline.jpeg` with an `id` of "sky"
+2. In the assets tag, import the asset using an `img` tag with a `src` of `assets/beltline.jpeg` and an `id` of "sky"
 3. Create an [`a-sky`](https://aframe.io/docs/0.5.0/primitives/a-sky.html) tag in the `a-scene` tag but outside of `a-assets`. The value of the sky's source is the `#sky` id that refers to the asset
-4. In the assets tag, import the asset `assets/bicycle.dae` with an `id` of "bike"
+4. In the assets tag, import the asset using an `a-asset-item` tag with a src `assets/bicycle.dae` and an `id` of "bike"
 5. Add an [`a-collada-model`](https://aframe.io/docs/0.5.0/primitives/a-collada-model.html) tag under the sky tag. The value of the model's source is the "#bike" id. The `position` is "3 1 -2" and the `rotation` is "0 90 0".
 
 ## Run on Phone
