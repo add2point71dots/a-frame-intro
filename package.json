@@ -1,8 +1,8 @@
 {
   "name": "a-frame-intro",
   "version": "1.0.0",
-  "description": "An introduction to VR and building VR experiences with A-Frame",
-  "main": "index.js",
+  "description": "",
+  "main": "index.html",
   "scripts": {
     "start": "budo --live --verbose --port 3000 --open",
     "test": "echo \"Error: no test specified\" && exit 1"
