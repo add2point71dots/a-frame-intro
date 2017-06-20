@@ -6,9 +6,6 @@ Virtual Reality, or VR, simulates a user’s physical presence in a virtual or i
 
 I’m going to specifically refer to these as VR experiences, because VR is more than just games. There’s VR film and video, documentaries, news stories, journals, adventures, and more.
 
-### Examples of VR
-- 
-
 ### Criticisms to VR
 - Accessibility to enjoy (equipment, culture)
 - Accessibility to develop (isolated)
@@ -21,9 +18,6 @@ A web framework for building virtual reality experiences
 - has a deep, small community backed by Mozilla
 - uses markup that looks like HTML to be placed in .html files
 - encourages fast development/prototyping
-
-### Examples of A-Frame
--
 
 ### Useful Concepts
 - Uses 3D coordinate space like (0, 0, 1)
@@ -73,3 +67,6 @@ A web framework for building virtual reality experiences
 3. On your phone, navigate to `<Your IP address>:3000`
 
 # More Resources
+- [The Docs](https://aframe.io/docs/0.5.0/introduction/)
+- [Examples (with source code)](https://aframe.io/examples/)
+- [Collection of extended A-Frame components](https://github.com/aframevr/awesome-aframe)
