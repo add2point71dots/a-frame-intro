@@ -4,7 +4,7 @@ An introduction to VR and building VR experiences with A-Frame
 ## What is Virtual Reality?
 Virtual Reality, or VR, simulates a user’s physical presence in a virtual or imaginary environment
 
-I’m going to specifically refer to these as VR experiences, because VR is more than just games. There’s VR film and video, documentaries, news stories, journals, adventures, and more.
+VR is more than just games. There’s VR film and video, documentaries, news stories, journals, adventures, and more.
 
 ### Criticisms to VR
 - Accessibility to enjoy (equipment, culture)
