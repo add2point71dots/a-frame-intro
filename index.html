@@ -1,15 +1,19 @@
 <html>
   <head>
-    <!-- https://aframe.io/releases/0.5.0/aframe.min.js -->
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
   </head>
   <body>
     <a-scene>
       <a-assets>
-
+        <img src="assets/beltline.jpeg" id="sky">
+        <a-asset-item src="assets/bicycle.dae" id="bike"></a-asset-item>
       </a-assets>
-
-
-
+      <a-text value="Hello World" color="#000" position="-1 2 -3"></a-text>
+      <a-light type="ambient" color="#222"></a-light>
+      <a-box position="0 0.5 -3" rotation="0 45 0" color="#DEFACE"></a-box>
+      <a-sky src="#sky"></a-sky>
+      <a-collada-model src="#bike" position="-3 1 -2" rotation="0 90 0"></a-collada-model>
+      <a-dodecahedron position="-3 0.5 -3" color="purple"></a-dodecahedron>
     </a-scene>
   </body>
 </html>
