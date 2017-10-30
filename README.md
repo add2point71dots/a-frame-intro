@@ -1,4 +1,7 @@
 # An Intro to VR & A-Frame
+An implementation of the A-Frame demo described below.
+
+---
 An introduction to VR and building VR experiences with A-Frame
 
 ## What is Virtual Reality?
